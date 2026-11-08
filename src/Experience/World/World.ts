@@ -164,6 +164,7 @@ export default class World extends kokomi.Component {
 
     await kokomi.sleep(10000);
 
-    alert("没错，你卡了");
+    alert("哎嘿，卡半岩了:（");
+    window.location.href = "https://ys.mihoyo.com/cloud";
   }
 }
